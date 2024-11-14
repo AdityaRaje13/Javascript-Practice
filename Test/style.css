@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.hide{
+    display: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 100vh;
+    background-color: rgb(247, 232, 214);
+}
+
+.heading{
+    font-size: 25px;
+    color: rgb(154, 70, 10);
+    margin-bottom: 15px;
+    
+}
+
+.container{
+    background-color:ghostwhite;
+    padding: 23px 45px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 15px rgb(75, 74, 74);
+}
+
+label{
+    font-weight: bolder;
+}
+
+input{
+    margin-bottom: 13px;
+    margin-top: 5px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+#addbtn{
+    margin-left: 65%;
+    padding: 5px 14px;
+    background-color: black;
+    color: wheat;
+    border: none;
+    border-radius: 10px;
+}
+
+#formBtns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+#formBtns button:hover{
+    opacity: 0.8;
+}
+
+#formBtns button{
+    padding: 8px 20px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+#view{
+    width: 100%;
+    padding: 8px 0px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 15px gray;
+}
+
+#view:hover{
+    opacity: 0.8;
+}
+
+.viewContainer{
+    width: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    margin: 20px auto;
+    padding: 0px 20px;
+}
+
+#activity{
+    margin: 5px 0px;
+    color: white;
+}
+
+.card #date{
+    margin: 10px auto;
+}
+
+.dataContainer{
+
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    width: 90%;
+    height: 90%;
+    padding: 15px 15px;
+    overflow: scroll;
+}
+
+#card{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.backBtn:first-child{
+   position: absolute;
+   top: 0;
+   left: 0;
+   
+}
+
+.backBtn{
+   margin: 10px 15px; 
+   padding: 8px 10px;
+   border: none;
+   border-radius: 10px;
+   background-color: aquamarine;
+   color: brown;
+   font-weight: bolder;
+}

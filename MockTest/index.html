@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Test Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mock Test Platform</h1>
+    </header>
+    <main>
+        <section id="test-section">
+            <h2>Take the Test</h2>
+            <form id="test-form">
+                <!-- Add test questions and options here -->
+                <label for="question1">Question 1:</label>
+                <input type="radio" id="option1" name="question1">
+                <label for="option1">Option 1</label>
+                <input type="radio" id="option2" name="question1">
+                <label for="option2">Option 2</label>
+                <!-- Add more questions and options -->
+                <button id="submit-btn">Submit</button>
+            </form>
+        </section>
+        <section id="result-section" hidden>
+            <h2>Results</h2>
+            <p id="result-message"></p>
+            <button id="view-report-btn">View Report</button>
+        </section>
+        <section id="report-section" hidden>
+            <h2>Report</h2>
+            <p id="report-message"></p>
+            <button id="back-btn">Back to Test</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

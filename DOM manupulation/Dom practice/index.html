@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .box{
+            padding: 20px 30px;
+            background-color: aqua;
+            color: red;
+            font-size: 25px;
+            margin: 20px 300px;
+        }
+
+        .light{
+            height: 200px;
+            width: 200px;
+            color: black;
+            background: wheat;
+            margin: auto auto;
+            padding: 20px 20px;
+        }
+
+        .dark{
+            height: 200px;
+            width: 200px;
+            color: white;
+            background: black;
+            margin: auto auto;
+            padding: 20px 20px;
+        }
+
+        .btns{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            margin: 20px 0px;
+        }
+    </style>
+</head>
+<body>
+    
+    <section>
+        <div id="hero">
+
+        </div>
+    
+        <h1 id="heading">Hello Javascript</h1>
+        <div id="boxes">
+            <div class="box1" id="box1">
+                <h1>Hello</h1>
+            </div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="light" id="page">
+
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, corporis maiores. Quod, fugit sapiente officia quis hic rem, eligendi reiciendis ad ducimus iure optio aspernatur, vitae neque voluptatem veritatis amet?
+            </p>
+
+        </div>
+
+        <div class="btns">
+            <button onclick="light()" >Light Mode</button>
+
+            <button onclick="dark()">Dark Mode</button>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

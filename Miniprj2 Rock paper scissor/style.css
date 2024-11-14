@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+.mainContainer{
+    height: 100vh;
+}
+
+.heading h1{
+    text-align: center;
+    color: brown;
+    font-size: 55px;
+}
+
+.gameContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 0px;
+}
+
+.choise{
+    background-color: black;
+    color: aliceblue;
+    padding: 80px 80px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.choise:hover{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+.scoreBoard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.scoreBoard h2{
+    font-size: 45px;
+    color: blueviolet;
+}
+
+.scoreBoard p{
+    font-size: 35px;
+}
+
+.yourScore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.computerScore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.msg{
+    background-color: rgb(216, 140, 0);
+    color: aliceblue;
+    text-align: center;
+    margin: 50px 35%;
+    padding: 15px 0px;
+    border-radius: 20px;
+}
+
+.result{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 35%;
+    padding: 15px 0px;
+    border-radius: 20px;
+}
+
+.hide{
+    display: none;
+}

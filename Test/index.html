@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My-Daily-Shedule</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <form id="dataForm">
+        <div class="data" id="data">
+          <h2 class="heading">Input Data Here</h2>
+
+          <div>
+            <label for="date">Date : </label>
+            <input type="date" id="date" required/>
+          </div>
+
+          <div>
+            <label for="data">Task 1 : </label>
+            <input type="text" id="data" required/>
+          </div>
+
+          <div>
+            <label for="data">Task 2 : </label>
+            <input type="text" id="data" required/>
+          </div>
+
+          <div>
+            <label for="data">Task 3 : </label>
+            <input type="text" id="data" required/>
+          </div>
+
+          <span id="addField"> </span>
+
+          <button type="button" id="addbtn">Add Field</button>
+        </div>
+
+        <div id="formBtns">
+          <button id="res-btn" type="reset">Reset</button>
+          <button id="btn" type="submit">Submit</button>
+        </div>
+      </form>
+
+      <button id="view">View Data</button>
+    </div>
+
+    <div class="dataContainer, hide" id="dataContainer">
+        <button class="backBtn" onclick="mainPage()"> <- Back </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

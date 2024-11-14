@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 25px 45px;
+    width: 40vh;
+    height: 45vh;
+    border-radius: 15px;
+}
+
+.form input,button,select{
+    width: 100%;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.amt{
+    margin-top: 20px;
+}
+
+.amt p{
+    margin: 5px 0px;
+    font-size: 18px;
+}
+
+.amt input{
+    width: 100%;
+    border: none;
+    padding: 15px 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.dropdown img{
+   width: 2.5rem;
+}
+
+.dropdown i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown select{
+    padding: 4px 10px;
+}
+
+.selectContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.selectContainer p{
+    font-size: 15px;
+}
+
+.msg{
+    font-size: 20px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(154, 0, 154);
+    padding: 16px 0px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
